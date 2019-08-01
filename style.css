@@ -1,0 +1,385 @@
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.container.fluid {
+   /* display: flex;*/
+    /*flex-wrap: wrap;
+    flex-direction: column;*/
+
+    /*flex-flow: row wrap;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-between;*/
+
+    /*align-items: flex-start;
+    align-content: space-around;*/
+   /* flex-basis: 30%;*/
+}
+
+.flex-containers {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.flex-container > div {
+  max-width: 400px;
+  margin:auto;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+}
+
+#title {
+  /*background-color: #74b49b;*/
+  color: #226b80; /*#fff = white | #000 = black*/
+}
+
+.img-logo {
+  width: 100px;
+  height: 90px;
+  border-radius: 5%;
+}
+/*#dev {
+  background-color: white;
+}*/
+
+.sticky-pam {
+  /* position: fixed;*/
+    /*left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    overflow: auto;*/
+
+}
+
+/*.pascal {
+  margin-bottom: 50px;
+}*/
+
+.container-fluid {
+  background-color: #beeef7;
+}
+
+.fa.fa-navicon {
+  color: #ff4c68;
+}
+
+.audio  {
+  /*margin: 0 auto;*/
+/*  margin-right: 20px;*/
+  width: 290px;
+  height: 180px;
+  /*padding-right: 25px;*/
+  /*border-radius: 10px;*/
+  /*right: 22px;*/
+}
+
+.tipizo {
+  display: flex;
+  flex-flow: column;
+  align-items: center; 
+}
+
+.audio-control {
+  margin-top: 10px;
+}
+
+
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: ""Sacramento"";
+  font-weight: bold;
+}
+
+.comite {
+  font-family: "Sacramento";
+  color: red;
+/*  font-weight: bold;*/
+  text-align: center;
+  padding-top: 10px;
+/*  line-height: 2;*/
+  /*font-weight: 2rem;*/
+}
+
+.qui-sommes-nous {
+  margin: .1rem;
+}
+/*.comite-direction {
+  font-family: "Sacramento";
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+  line-height: 2;
+  font-weight: 5rem;
+}*/
+
+.comite-membre {
+  font-family: "Sacramento";
+  color: red;
+/*  font-weight: bold;*/
+  text-align: center;
+  padding-top: 20px;
+  line-height: 2;
+  font-weight: 5rem;
+}
+
+p {
+  color: #8f8f8f;
+  
+}
+  /*NAV BAR*/
+
+.navbar {
+  padding: 0 0 4.5rem;
+} 
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-size: 1.2rem;
+  /*color: red;*/
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #226b80 /*rgba(255,255,255,.5)*/;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red /*rgba(255,255,255,.5)*/;
+}
+  /*Download Buttons*/
+
+.download-button {
+  margin: 5% 3% 5% 0;
+} 
+
+  /*Title Image*/
+
+.title-image {
+  width: 60%;
+  transform: rotate(0deg);
+  border-radius: 10px;
+} 
+
+  /*Features Section */
+
+#features {
+  padding: 7% 12%;
+  }
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  }
+
+.icon {
+  color: #226b80/*#ef8172*/;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+  /*Testimonials Section*/
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 12%;
+  background-color: lightblue;
+}
+
+.img-dog { /* or testimonial-image */
+  border-radius: 50%;
+  }
+
+#press {
+  background-color: lightblue;    /*#ef8172;*/
+  text-align: center;
+  padding-bottom: 3%;
+/*  width: 10%;*/
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+    border-radius: 5px;
+
+  }
+  
+  /*Projects Section*/
+
+#project {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Create three equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 55px;
+}
+
+#cta {
+  text-align: center;
+  /*padding-bottom: 20px;*/
+}
+
+#footer {
+  text-align: center;
+  padding: 2% 5%;
+  background-color: skyblue;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*MEDIA QUERIES*/
+/*@media (max-width: 1028px) { */  
+ /* @media (max-width: 576px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media screen and (min-width: 550px) {
+
+  .wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }*/
+  
+ /* body {
+    background-color: #bf9fee;
+  }*/
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+article {
+  margin: 1rem 0;
+}
+
+@supports (display: grid) {
+  main {
+    max-width: 10000px;
+    margin: 0;
+  }
+}
+
+
+.deals {
+  font-family: Avenir, Roboto, Helvetica, sans-serif;
+  font-size: 80%;
+   margin: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 200px;
+} 
+
+/*.deals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem; 
+  text-align: center;
+}*/
+
+
+/*.sale-item {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  padding: 2rem;
+  align-self: center;
+}
+*/
+/*.sale-item > h5 {
+  margin: 1rem 1rem 0;
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+.sale-item > img {
+  border-radius: 15px;
+  align-self: center;
+  width: 200px; 
+  height: 200px;
+  text-align: center;
+}
+*/
+.special {
+  font-family: "Sacramento";
+/*  font-size: 3rem;*/
+    font-weight: 5rem;
+  color: red;
+  text-align: center;
+/*  align-self: center;*/
+}
+
+h2 {
+  text-align: center;
+}
